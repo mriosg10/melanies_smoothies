@@ -5,6 +5,8 @@ from snowflake.snowpark.functions import col
 cnx = st.connection("snowflake")
 session = cnx.session()
 
+streamlit.title('My parents new healthy dinner')
+
 # Write directly to the app
 st.title(":cup_with_straw: Customize your smoothie! :cup_with_straw:")
 st.write(
